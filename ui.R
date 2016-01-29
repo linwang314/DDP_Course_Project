@@ -1,3 +1,8 @@
+## This is the user interface script for the energy profile application
+## Users need to input two values: 
+## 1) a category of data of choice (select input)
+## 2) a range of years of interest (slider input)
+
 library(shiny)
 
 shinyUI(fluidPage(
