@@ -33,4 +33,9 @@ The application must include the following:
 1. It must be done in Slidify or Rstudio Presenter  
 2. It must be 5 pages  
 3. It must be hosted on github or Rpubs  
-4. It must contained some embedded R code that gets run when slidifying the document
+4. It must contained some embedded R code that gets run when slidifying the document  
+
+## This repo contains the following items:  
+* ui.R and server.R scripts for the web application  
+* raw data sets for the web application  
+* course_project_presentation folder with files for reproducible pitch presentation
