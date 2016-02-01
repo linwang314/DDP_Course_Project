@@ -19,7 +19,8 @@ shinyUI(fluidPage(
       sliderInput(inputId = "range", label = "Year range of interest", min = 1949, max = 2014, step = 1, value = c(1949, 2014)),
       submitButton(text = "Submit", icon = NULL, width = NULL),
       br(),
-      p("Data Source:", a("US EIA", href = "https://www.eia.gov/totalenergy/data/annual/index.cfm"))
+      p("Data Source:", a("US EIA", href = "https://www.eia.gov/totalenergy/data/annual/index.cfm")),
+      p("Source code:", a("Github repo", href = "https://github.com/linwang929/DDP_Course_Project"))
       
     ),
     mainPanel(
